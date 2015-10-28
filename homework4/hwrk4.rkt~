@@ -1,0 +1,27 @@
+#lang racket
+
+(define (f p g h) (λ(x) (and (p (g x)) (p (h x)))))
+
+(define (fst pair)
+  (car pair))
+
+(define (snd pair)
+  (cdr pair))
+
+(define  )
+
+(define (add-frac frac1 frac2)
+  ())
+
+; You should subtract two fractions together and return a new fraction
+(define (substract-frac frac1 frac2)
+  (void))
+
+; You know the drill by now. Multiply and return a new fraction
+(define (mult-frac frac1 frac2)
+  (void))
+
+; Simplify, if possible, the given fraction
+; https://www.mathsisfun.com/simplifying-fractions.html
+(define (simplify-frac frac)
+  (void))
